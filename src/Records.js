@@ -55,6 +55,7 @@ function Records() {
             case "delete":
                 setRecords(records.filter(e => e.id !== record.id));
                 break;
+            default: console.log('default case')
         }
         
         error = "";
